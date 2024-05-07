@@ -8,7 +8,7 @@ import pymongo
 # Uses st.cache_resource to only run once.
 @st.cache_resource
 def init_connection():
-    return pymongo.MongoClient(**st.secrets["mongo"])
+    return pymongo.MongoClient(**st.secrets["swaping"])
 
 client = init_connection()
 
