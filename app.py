@@ -2,7 +2,7 @@
 # streamlit_app.py
 
 import streamlit as st
-import pymongo
+#import pymongo
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
